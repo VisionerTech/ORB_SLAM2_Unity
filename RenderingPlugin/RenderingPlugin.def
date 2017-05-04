@@ -1,0 +1,9 @@
+LIBRARY
+
+EXPORTS
+   UnityPluginLoad
+   UnityPluginUnload
+   SetTimeFromUnity
+   SetTextureFromUnity
+   SetUnityStreamingAssetsPath
+   GetRenderEventFunc

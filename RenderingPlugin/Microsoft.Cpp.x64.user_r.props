@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <LibraryPath>E:\opencv310\opencv\vs2013_x64\install\x64\vc12\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>E:\opencv310\opencv\vs2013_x64\install\x64\vc12\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>E:\opencv310\opencv\vs2013_x64\install\include;E:\opencv310\opencv\vs2013_x64\install\include\opencv;E:\opencv310\opencv\vs2013_x64\install\include\opencv2;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\opencv310\opencv\vs2013_x64\install\include;..\ORB_SLAM2\;..\ORB_SLAM2\include;..\ORB_SLAM2\eigen-eigen-07105f7124f9;..\videoInput;..\VMG_IMU_Paritycheck</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:\opencv310\opencv\vs2013_x64\install\x64\vc12\lib;..\videoInput;..\ORB_SLAM2\lib;..\VMG_IMU_Paritycheck</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_calib3d310.lib;opencv_core310.lib;opencv_features2d310.lib;opencv_flann310.lib;opencv_highgui310.lib;opencv_imgcodecs310.lib;opencv_imgproc310.lib;opencv_ml310.lib;opencv_objdetect310.lib;opencv_photo310.lib;opencv_shape310.lib;opencv_stitching310.lib;opencv_superres310.lib;opencv_ts310.lib;opencv_video310.lib;opencv_videoio310.lib;opencv_videostab310.lib;opencv_viz310.lib;..\ORB_SLAM2\Thirdparty\g2o\lib\$(Configuration)\g2o.lib;..\ORB_SLAM2\Thirdparty\DBoW2\lib\$(Configuration)\DBoW2.lib;ORB_SLAM2.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;videoInput.lib;imu_parity_check.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
