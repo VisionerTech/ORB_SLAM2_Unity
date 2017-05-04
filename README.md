@@ -1,6 +1,8 @@
 
 ## ORB_SLAM2 Unity
 
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/0sJTb0Xm9ss/0.jpg)](https://www.youtube.com/watch?v=0sJTb0Xm9ss)
+
 This is a sample project for using [ORB_SLAM2 stereo](https://github.com/raulmur/ORB_SLAM2) for inside-out tracking of AR/VR scenario with VisionerTech VMG-PROV setup. We compile ORB_SLAM2 in windows and use it as a rendering plugin for Unity. A loose coupling IMU approach for camera rotation running only in Unity side, on the other hand, camera position is provided by ORB_SLAM2. "/RenderingPlugin/" holds a visual studio 2013 project building ORB_SLAM2, camera capturing, IMU data, rendeing setup and other things to a .dll for Unity. "/UnityProject/" holds a Unity project.
 
 ## Hardware Requirement:
